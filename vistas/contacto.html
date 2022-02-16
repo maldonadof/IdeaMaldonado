@@ -2,6 +2,8 @@
 <html lang="es">
 
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="../css/estilos.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +12,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" data-aos="zoom-in" data-aos-duration="1000">
         <img src="../img/banner.jpg" alt="">
         <nav>
             <ul>
@@ -26,7 +28,7 @@
             </ul>
         </nav>
     </header>
-    <section class="section__resenas">
+    <section class="section__resenas shadow-drop-center" data-aos="fade-up" data-aos-duration="3000">
         <p class="section__titulo">
             ¿Querés compartirnos tu opinión?
         </p>
@@ -45,7 +47,7 @@
         </form>
     </section>
     <div class="linea"></div>
-    <footer>
+    <footer data-aos="fade-up" data-aos-duration="1000">
         <div class="footer__compartir">
             <p class="footer__p">¿Querés compartirnos tu opinión?</p>
             <p class="footer__p">Conocé cómo hacerlo haciendo click <a href="./vistas/contacto.html">aquí</a></p>
@@ -66,6 +68,9 @@
             </ul>
         </div>
     </footer>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

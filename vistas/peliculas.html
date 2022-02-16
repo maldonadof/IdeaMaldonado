@@ -2,6 +2,8 @@
 <html lang="es">
 
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="../css/estilos.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +12,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" data-aos="zoom-in" data-aos-duration="1000">
         <img src="../img/banner.jpg" alt="">
         <nav>
             <ul>
@@ -26,7 +28,7 @@
             </ul>
         </nav>
     </header>
-    <section class="section__bienvenidos">
+    <section class="section__bienvenidos shadow-drop-center" data-aos="fade-up" data-aos-duration="3000">
         <img src="../img/series.jpg" alt="" class="img__bienvenidos">
         <!--Imagen cambiante-->
         <div class="section__bienvenidos2">
@@ -39,7 +41,7 @@
             </p>
         </div>
     </section>
-    <section class="section__resenas">
+    <section class="section__resenas shadow-drop-center" data-aos="fade-up" data-aos-duration="3000">
         <h2 class="section__titulo">Emma</h2>
         <div class="section__contenedorResenas2">
             <img src="../img/emma.jpg" alt="" class="img__resenas">
@@ -49,7 +51,7 @@
                 iure inventore recusandae. Non id deleniti et. Iusto tenetur repudiandae nisi ex laborum!</p>
         </div>
     </section>
-    <section class="section__resenas">
+    <section class="section__resenas shadow-drop-center" data-aos="fade-up" data-aos-duration="3000">
         <h2 class="section__titulo">Spiderman: No way home</h2>
         <div class="section__contenedorResenas">
             <p class="section__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea adipisci libero earum
@@ -60,11 +62,11 @@
                 <img src="../img/spiderman.jpg" alt="" class="img__resenas">
         </div>
     </section>
-    <section>
+    <section >
         <p class="p__mas">Ver más</p>
     </section>
     <div class="linea"></div>
-    <footer>
+    <footer data-aos="fade-up" data-aos-duration="1000">
         <div class="footer__compartir">
             <p class="footer__p">¿Querés compartirnos tu opinión?</p>
             <p class="footer__p">Conocé cómo hacerlo haciendo click <a href="./vistas/contacto.html">aquí</a></p>
@@ -85,6 +87,9 @@
             </ul>
         </div>
     </footer>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
