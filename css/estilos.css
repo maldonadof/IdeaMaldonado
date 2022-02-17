@@ -90,9 +90,16 @@ footer input {
     margin: auto
 }
 
-form textarea {
-    margin-left: 62rem;
+.footer__i {
+    width: 75%;
 }
+
+.footer__btn {
+    background-color: #d5cfe1;
+    color: black;
+    border-color: black;
+}
+
 
 .p__mas {
     text-align: center;
@@ -215,12 +222,35 @@ header img {
     align-items: center;
 }
 
-.form__contacto {
-    margin-left: 62rem;
+
+a {
+    color: #d5cfe1;
+
 }
 
+.carousel__img {
+    width: 25%;
+}
 
+.header__img {
+    width: 600px;
+    height: 400px;
 
+}
+
+.contacto__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto__input {
+    width: 21%;
+}
+
+.contacto__email {
+    width: 27rem;
+}
 
 
 /*MEDIA QUERIES */ 
@@ -295,11 +325,6 @@ header img {
         padding-top: 2rem;
     }
 
-
-    form textarea {
-        margin-left: 24rem;
-    }
-
     .form__contacto {
         margin-left: 24rem;
     }
@@ -308,8 +333,13 @@ header img {
 
 @media screen and (max-width: 426px) {
     header img {
-        width: 87%;
+        width: 82%;
         margin-left: 0rem;
+    }
+
+    .header__img {
+        width: 220px;
+        height: 150px;
     }
 
     nav ul {
@@ -328,10 +358,19 @@ header img {
             display: flex;
             flex-direction: column;
     }
+
+    .img__resenas {
+        width: 20rem;
+        height: 33rem;
+    }
     
     .section__opiniones {
         display: flex;
         flex-direction: column;
+    }
+
+    .section__titulo {
+        font-size: 3rem;
     }
 
     .footer__hijo {
@@ -351,7 +390,24 @@ header img {
         margin-left: 8rem;
     }
 
-    form textarea {
-        margin-left: 8rem;
+    .carousel__media {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto__input {
+        width: 100%;
+    }
+
+    
+    .carousel__img {
+        width: 50%;
+    }
+
+    .form__correo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
