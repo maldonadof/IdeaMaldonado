@@ -22,7 +22,7 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color: black !important;
+    color: black;
     font-size: large;
     text-align: center;
     font-family: 'Bitter', serif;
@@ -252,6 +252,52 @@ a {
     width: 27rem;
 }
 
+.footer__btn:hover {
+    color: black;
+    background-color: #b5a6ca;
+    border-color: black;
+}
+
+a:hover {
+    color:black;
+}
+
+
+#navbar__vistas {
+    color: black;
+    transition: transform 0.5s ease;
+}
+
+#navbar__vistas:hover {
+    transform: translateX(0.5rem);
+    color: #d5cfe1;
+}
+
+#navbar__redes {
+    color: black;
+}
+
+#navbar__redes:hover {
+    color: #d5cfe1;
+}
+
+#navbar__redes:focus, #navbar__vistas:focus {
+    color: #d5cfe1;
+}
+
+.page-link {
+    color: black;
+}
+
+.page-link:hover {
+    color: #a09abc;
+}
+
+.page-link:focus {
+    color: #a09abc;
+}
+
+
 
 /*MEDIA QUERIES */ 
 
@@ -260,6 +306,13 @@ a {
     header img {
         width: 90%;
         margin-left: 0rem;
+    }
+
+    .header__nav {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        justify-content: center;
     }
 
     .icono {
@@ -340,6 +393,12 @@ a {
     .header__img {
         width: 220px;
         height: 150px;
+    }
+    
+    .header__nav {
+        flex-direction: column;
+        gap: 0rem;
+        padding-top: 0rem;
     }
 
     nav ul {
