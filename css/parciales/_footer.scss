@@ -1,0 +1,42 @@
+footer {
+    margin: 2rem;
+    padding: 3rem 3rem;
+}
+
+.footer__p {
+    color: black;
+    font-size: large;
+    font-family: 'Bitter', serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer__a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-size: 2rem;   
+}
+
+footer input {
+    margin: auto
+}
+
+.footer__i {
+    width: 75%;
+}
+
+.footer__btn {
+    background-color: #d5cfe1;
+    color: black;
+    border-color: black;
+}
+
+.footer__btn:hover {
+    color: black;
+    background-color: #b5a6ca;
+    border-color: black;
+}

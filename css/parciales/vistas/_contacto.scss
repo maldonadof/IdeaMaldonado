@@ -1,0 +1,45 @@
+.contacto__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto__input {
+    width: 21%;
+}
+
+.contacto__email {
+    width: 27rem;
+}
+
+.btn-primary {
+    background-color: #b6a6ca;
+    border-color: #a09abc;
+    }
+
+.btn {
+    font-size: 2.5rem;
+    font-family: 'Bitter', serif;
+}
+
+.page-link {
+    color: black;
+}
+
+.page-link:hover {
+    color: #a09abc;
+}
+
+.page-link:focus {
+    color: #a09abc;
+}
+
+.btn-primary {
+    background-color: #b6a6ca;
+    border-color: #a09abc;
+    }
+
+.btn {
+    font-size: 2.5rem;
+    font-family: 'Bitter', serif;
+}

@@ -1,0 +1,67 @@
+section {
+    background-color: #d5cfe1;
+}
+
+.section__titulo { 
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.section__texto {
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-size: 2rem;
+
+}
+
+.section__resenas {
+    margin: 2rem 4rem 6rem;
+    padding: 3rem 2rem 4rem;
+}
+
+form p {
+    color: black;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-size: 2.5rem;
+}
+
+a {
+    color: #d5cfe1;
+
+}
+
+a:hover {
+    color:black;
+}
+
+.shadow-drop-center {
+	-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }

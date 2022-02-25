@@ -1,0 +1,11 @@
+.section__opiniones {
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5rem;
+}
+
+.carousel__img {
+    width: 25%;
+}

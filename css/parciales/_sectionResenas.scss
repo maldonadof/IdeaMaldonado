@@ -1,0 +1,37 @@
+.img__resenas {
+    width: 25rem;
+    height: 40rem;
+}
+
+.section__ultResenas {
+    margin: 2rem 4rem 6rem;
+    padding: 3rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.section__contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 3rem;
+}
+
+.section__contenedorHijo {
+    text-align: center;
+}
+
+.section__contenedorResenas {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+.section__contenedorResenas2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
