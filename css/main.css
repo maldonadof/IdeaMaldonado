@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
@@ -34,15 +33,8 @@ nav li a {
 }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
 }
 
@@ -53,14 +45,10 @@ nav li a {
 
 #navbar__vistas {
   color: black;
-  -webkit-transition: -webkit-transform 0.5s ease;
-  transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 
 #navbar__vistas:hover {
-  -webkit-transform: translateX(0.5rem);
           transform: translateX(0.5rem);
   color: #d5cfe1;
 }
@@ -85,13 +73,10 @@ nav li a {
 .section__bienvenidos {
   margin: 2rem 4rem 6rem;
   padding: 3rem 2rem 4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .section__bienvenidos2 {
-  display: -ms-grid;
   display: grid;
 }
 
@@ -112,14 +97,11 @@ nav li a {
 .section__ultResenas {
   margin: 2rem 4rem 6rem;
   padding: 3rem 2rem 4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
           flex-direction: column;
 }
 
 .section__contenedor {
-  display: -ms-grid;
   display: grid;
       grid-template-columns: repeat(3, 1fr);
           align-items: center;
@@ -131,7 +113,6 @@ nav li a {
 }
 
 .section__contenedorResenas {
-  display: -ms-grid;
   display: grid;
       grid-template-columns: 2fr 1fr;
   justify-items: center;
@@ -140,7 +121,6 @@ nav li a {
 }
 
 .section__contenedorResenas2 {
-  display: -ms-grid;
   display: grid;
       grid-template-columns: 1fr 2fr;
   justify-items: center;
@@ -148,7 +128,6 @@ nav li a {
 }
 
 .section__opiniones {
-  display: -ms-grid;
   display: grid;
       grid-template-columns: 1.7fr 1fr;
           align-items: center;
@@ -198,6 +177,10 @@ a {
 
 a:hover {
   color: black;
+}
+
+.linea {
+  background-color: #d5cfe1;
 }
 
 .shadow-drop-center {
@@ -270,8 +253,6 @@ footer input {
 }
 
 .contacto__form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
           flex-direction: column;
           align-items: center;
@@ -323,8 +304,6 @@ footer input {
     margin-left: 0rem;
   }
   .header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
             flex-direction: row;
     gap: 3rem;
@@ -342,14 +321,11 @@ footer input {
     height: 75%;
   }
   .section__bienvenidos {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
             flex-direction: column;
             align-items: center;
   }
   .section__contenedor {
-    display: -ms-grid;
     display: grid;
         grid-template-columns: none;
             align-items: normal;
@@ -357,7 +333,6 @@ footer input {
     padding-top: 3rem;
   }
   .section__opiniones {
-    display: -ms-grid;
     display: grid;
         grid-template-rows: repeat(2, 0.8fr);
             align-items: center;
@@ -381,7 +356,6 @@ footer input {
         grid-template-rows: 0.6fr 1fr;
   }
   .section__contenedorResenas2 {
-    display: -ms-grid;
     display: grid;
         grid-template-columns: none;
     justify-items: center;
@@ -409,7 +383,6 @@ footer input {
     padding-top: 0rem;
   }
   nav ul {
-    display: -ms-grid;
     display: grid;
         grid-template-columns: repeat(5, 1fr);
     grid-gap: 0.5rem;
@@ -420,8 +393,6 @@ footer input {
     height: 100%;
   }
   .section__bienvenidos {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
             flex-direction: column;
   }
@@ -430,8 +401,6 @@ footer input {
     height: 33rem;
   }
   .section__opiniones {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
             flex-direction: column;
   }
@@ -442,8 +411,6 @@ footer input {
     padding: 2rem;
   }
   .section__contenedor {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
             flex-direction: column;
   }
@@ -454,8 +421,6 @@ footer input {
     margin-left: 8rem;
   }
   .carousel__media {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
             flex-direction: column;
             align-items: center;
@@ -467,8 +432,6 @@ footer input {
     width: 50%;
   }
   .form__correo {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
             flex-direction: column;
             align-items: center;
