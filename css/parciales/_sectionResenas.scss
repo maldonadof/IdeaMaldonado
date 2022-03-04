@@ -1,11 +1,21 @@
+@mixin grilla{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
 .img__resenas {
     width: 25rem;
     height: 40rem;
 }
 
-.section__ultResenas {
+.section__resenas {
     margin: 2rem 4rem 6rem;
     padding: 3rem 2rem 4rem;
+}
+
+.section__ultResenas {
+    @extend .section__resenas;
     display: flex;
     flex-direction: column;
 }
@@ -22,16 +32,12 @@
 }
 
 .section__contenedorResenas {
-    display: grid;
+    @include grilla;
     grid-template-columns: 2fr 1fr;
-    justify-items: center;
-    align-items: center;
     margin-left: 4rem;
 }
 
 .section__contenedorResenas2 {
-    display: grid;
+    @include grilla;
     grid-template-columns: 1fr 2fr;
-    justify-items: center;
-    align-items: center;
 }
