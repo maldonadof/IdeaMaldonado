@@ -1,33 +1,33 @@
 $estilos: (
     color: black,
     centro: center,
-    background: #d5cfe1,
+    b: #d5cfe1,
 );
 
 
 section {
-    background-color:  map-get($estilos, $background);
+    background-color:  map-get($estilos, b);
 }
 
 .section__titulo { 
     font-weight: bold;
     font-family: 'Lora', serif;
-    color: map-get($estilos, $color);
+    color: map-get($estilos, color);
     font-size: 4rem;
-    text-align: map-get($estilos, $centro);
+    text-align: map-get($estilos, centro);
 }
 
 .section__texto {
-    color: map-get($estilos, $color);
+    color: map-get($estilos, color);
     font-size: large;
-    text-align: map-get($estilos, $centro);
+    text-align: map-get($estilos, centro);
     font-family: 'Bitter', serif;
     font-size: 2rem;
 }
 
 form p {
-    color: map-get($estilos, $color);
-    text-align: map-get($estilos, $centro);
+    color: map-get($estilos, color);
+    text-align: map-get($estilos, centro);
     font-family: 'Bitter', serif;
     font-size: 2.5rem;
 }
@@ -38,11 +38,11 @@ a {
 }
 
 a:hover {
-    color: map-get($estilos, $color);
+    color: map-get($estilos, color);
 }
 
 .linea {
-    background-color:  map-get($estilos, $background);
+    background-color:  map-get($estilos, b);
 }
 
 
