@@ -33,9 +33,9 @@ nav li a {
 }
 
 .header {
-  display: flex;
-          flex-direction: column;
-          align-items: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 }
 
 .header__img {
@@ -46,6 +46,7 @@ nav li a {
 #navbar__vistas {
   color: black;
   transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 
 #navbar__vistas:hover {
@@ -90,8 +91,7 @@ nav li a {
 }
 
 .img__resenas {
-  width: 25rem;
-  height: 40rem;
+  width: 80%;
 }
 
 .section__resenas, .section__ultResenas {
@@ -139,7 +139,9 @@ nav li a {
 }
 
 .carousel__img {
-  width: 25%;
+  width: 30%;
+  height: 30%;
+      align-self: center;
 }
 
 section {
@@ -280,9 +282,10 @@ footer input {
   border-color: #a09abc;
 }
 
-.btn {
-  font-size: 2.5rem;
-  font-family: 'Bitter', serif;
+.btn-primary:hover {
+  color: black;
+  background-color: #b5a6ca;
+  border-color: black;
 }
 
 @media screen and (max-width: 950px) {
@@ -434,4 +437,3 @@ footer input {
             align-items: center;
   }
 }
-/*# sourceMappingURL=main.css.map */

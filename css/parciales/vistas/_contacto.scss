@@ -38,8 +38,9 @@
     background-color: #b6a6ca;
     border-color: #a09abc;
     }
-
-.btn {
-    font-size: 2.5rem;
-    font-family: 'Bitter', serif;
-}
+    
+.btn-primary:hover {
+        color: black;
+        background-color: #b5a6ca;
+        border-color: black;
+    }
